@@ -105,7 +105,7 @@ h3 {
 
 .header img {
   width: 30vw;
-  padding: 10px 0;
+  
 }
 
 .index {
@@ -198,7 +198,7 @@ div.social-media {
 }
 
 .social-media a:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 .projects {
@@ -274,6 +274,11 @@ div.social-media {
   color: var(--base-color);
 }
 
+.contact p {
+  font-family: 'Jost';
+  color: var(--base-color);
+}
+
 .contact h4:nth-of-type(1) {
   font-size: 2.4rem;
   margin-bottom: 1rem;
@@ -300,12 +305,14 @@ div.social-media {
   padding: 0.7rem;
   box-shadow: 3px 3px var(--soft-blue);
   border: none;
+  color: var(--text);
 }
 
 .form-container form textarea {
   padding: 0.7rem;
   box-shadow: 3px 3px var(--soft-blue);
   border: none;
+  color: var(--text);
 }
 
 .form-container button {
@@ -316,7 +323,7 @@ div.social-media {
   margin-top: 2rem;
   background-color: var(--base-color);
   color: var(--soft-brown);
-  font-weight: 500;
+  font-weight: 600;
   border: none;
   cursor: pointer;
   transition: all 0.4s ease;
