@@ -1,0 +1,165 @@
+/* IPADS */
+/* 481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header {
+    padding: 2rem;
+  }
+
+  .header img {
+    width: 20vw;
+  }
+
+  .index-container {
+    padding: 8rem 4rem;
+    text-align: left;
+    display: block;
+  }
+
+  .index-container a {
+    max-width: 200px;
+    margin-top: 2rem;
+  }
+
+  .index .index-img {
+    max-height: 90vh;
+  }
+
+  .about {
+    padding: 8rem 4rem;
+  }
+
+  .about img {
+    width: 60%;
+  }
+
+  .projects {
+    padding: 8rem 4rem;
+  }
+
+  .skills {
+    padding: 8rem 4rem;
+  }
+
+  .form-container button {
+    display: block;
+    margin: 2rem auto;
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 1.4rem;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 2.8rem;
+  }
+
+  .index {
+    display: flex;
+    align-items: center;
+  }
+
+  .index-container {
+    padding: 8rem 4rem;
+    text-align: left;
+    display: block;
+  }
+
+  .index-container a {
+    max-width: 200px;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+
+  .index-img {
+    max-height: 80vh;
+    width: 60vw;
+  }
+
+  .about {
+    width: 100vw;
+    padding: 8rem 4rem;
+  }
+
+  .about-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  /* .about-text {
+    width: 60vw;
+  } */
+
+  .about .small-title {
+    font-size: 2rem;
+  }
+
+  .about img {
+    width: 40vw;
+    height: 45vh;
+  }
+
+  .social-media {
+    margin-top: 1rem;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+
+  .header img {
+    width: 20vw;
+  }
+
+  .nav ul li a {
+    font-size: 1.4rem;
+  }
+
+  .projects {
+    padding: 8rem 4rem;
+    text-align: left;
+  }
+
+  .skills {
+    padding: 4rem 4rem;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact h4:nth-of-type(1) {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact h4:nth-of-type(2) {
+    font-size: 2.1rem;
+  }
+
+  .form-container {
+    width: 70vw;
+    padding: 4rem 4rem;
+  }
+
+  .form-container form input, textarea {
+    padding: 1.1rem;
+  }
+
+  .form-container button {
+    max-width: 30vw;
+  }
+}

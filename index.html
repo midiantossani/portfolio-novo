@@ -16,6 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <title>Midian Tossani</title>
   </head>
   <body>
@@ -33,25 +34,36 @@
 
     <main>
       <section class="index" id="index">
-        <div class="index-container">
-          <h1>Olá!<br />Bem-vindo ao meu portifólio!</h1>
-          <a href="">Baixar CV</a>
+        <div class="index-container delayLargeReveal">
+          <h1 class="delayMediumReveal">
+            Olá!<br />Bem-vindo ao meu portifólio!
+          </h1>
+          <a href="" class="delaySmallReveal">Baixar CV</a>
         </div>
-        <img src="src/portrait of me in a.jpg" alt="ilustration" />
+        <div class="index-img delaySmallReveal"></div>
       </section>
 
       <section class="about" id="Sobre">
         <h2 class="delayMediumReveal">Quem sou.</h2>
         <div class="about-div">
-          <h2 class="delaySmallReveal">Midian Tossani</h2>
-          <h3 class="delayMediumReveal">Frontend Developer & UI/UX Designer</h3>
-          <p class="delayLargeReveal">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
-            consectetur dolorem! Molestias unde minus omnis temporibus rerum
-            earum at minima delectus facilis, atque incidunt deserunt labore
-            optio? Fuga, blanditiis dicta!
-          </p>
-          <img class="delayMediumReveal" src="src/social/5-removebg-preview.png" alt="midian" />
+          <div class="about-text">
+            <h3 class="delaySmallReveal">Midian Tossani</h3>
+            <p class="small-title delayMediumReveal">
+              Frontend Developer & UX/UI Designer
+            </p>
+            <p class="delayLargeReveal">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
+              consectetur dolorem! Molestias unde minus omnis temporibus rerum
+              earum at minima delectus facilis, atque incidunt deserunt labore
+              optio? Fuga, blanditiis dicta!
+            </p>
+          </div>
+
+          <img
+            class="delayMediumReveal"
+            src="src/social/5-removebg-preview.png"
+            alt="midian"
+          />
         </div>
         <div class="social-media delayLargeReveal">
           <a href=""
@@ -130,6 +142,7 @@
                 d="M12 18.1778L16.6192 16.9222L17.2434 10.1444H9.02648L8.82219 7.88889H17.4477L17.6747 5.67778H6.32535L6.96091 12.3556H14.7806L14.5195 15.2222L12 15.8889L9.48045 15.2222L9.32156 13.3778H7.0517L7.38083 16.9222L12 18.1778ZM3 2H21L19.377 20L12 22L4.62295 20L3 2Z"
               ></path>
             </svg>
+            <!-- <span>HTML</span> -->
           </article>
 
           <article class="intervalCardReveal">
@@ -290,7 +303,6 @@
               ></path>
             </svg>
           </article>
-
         </div>
         <h3>Estudando no momento.</h3>
         <p>
@@ -302,17 +314,19 @@
       </section>
 
       <section class="contact" id="Contato">
-        <h4 class="delayExtraBigReveal">Gostou?</h4>
-        <h4>Entre em contato e saiba mais!</h4>
-        <div class="form-container">
+        <div class="contact-text">
+          <h4 class="delayExtraBigReveal">Gostou?</h4>
+          <h4 class="delayMediumReveal">Entre em contato e saiba mais!</h4>
+        </div>
+        <div class="form-container delaySmallReveal">
           <form action="https://formspree.io/f/mkndapbw" method="POST">
             <label for="nome"> Nome: </label>
-            <input type="text" name="nome" />
+            <input type="text" name="nome" id="nome" />
 
-            <label> E-mail: </label>
-            <input type="email" name="email" />
-            <label> Mensagem: </label>
-            <textarea name="message"></textarea>
+            <label for="email"> E-mail: </label>
+            <input type="email" name="email" id="email" />
+            <label for="mensagem"> Mensagem: </label>
+            <textarea name="message" id="mensagem"></textarea>
             <!-- your other form fields go here -->
             <button type="submit">Enviar Mensagem</button>
           </form>
@@ -329,5 +343,16 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script type="module" src="ScrollReveal.js"></script>
+    <!-- <script>
+      function typeWrite(elemento) {
+        const textoArray = elemento.innerHTML.split("");
+        elemento.innerHTML = " ";
+        textoArray.forEach(function (letra, i) {
+          setTimeout(function () {
+            elemento.innerHTML += letra;
+          }, 75 * i);
+        });
+      }
+    </script> -->
   </body>
 </html>
