@@ -110,10 +110,6 @@
     gap: 2rem;
   }
 
-  /* .about-text {
-    width: 60vw;
-  } */
-
   .about .small-title {
     font-size: 1.4rem;
   }
@@ -127,6 +123,11 @@
     margin-top: 1rem;
   }
 
+  .social-media a img {
+    width: 5vw;
+    height: 10vh;
+  }
+
   .projects {
     padding: 8rem 4rem;
     text-align: left;
@@ -134,6 +135,15 @@
 
   .skills {
     padding: 4rem 4rem;
+  }
+
+  .skills .hoverChangeDescription {
+    transition: transform 0.8s ease;
+    display: block;
+    max-width: 50vw;
+    line-height: 2rem;
+    color: var(--text);
+    font-size: 1.2rem;
   }
 
   .contact {
@@ -174,7 +184,7 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   body {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     overflow-x: hidden;
   }
 
@@ -239,10 +249,6 @@
     gap: 2rem;
   }
 
-  /* .about-text {
-    width: 60vw;
-  } */
-
   .about .small-title {
     font-size: 1.4rem;
   }
@@ -257,9 +263,9 @@
     gap: 2.4rem;
   }
 
-  .social-media a svg {
-    height: 40px;
-    width: 40px;
+  .social-media a img {
+    height: 10vh;
+    width: 5vw;
   }
 
   .projects {
@@ -269,6 +275,19 @@
 
   .skills {
     padding: 4rem 4rem;
+  }
+
+  .skills .hoverChangeDescription {
+    transition: transform 0.8s ease;
+    display: block;
+    max-width: 50vw;
+    line-height: 2rem;
+    color: var(--text);
+    font-size: 1.3rem;
+  }
+
+  .skills-studying {
+    max-width: 80vw;
   }
 
   .contact {
@@ -310,7 +329,7 @@
 
 @media screen and (min-width: 1201px) {
   body {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     overflow-x: hidden;
   }
 
@@ -373,10 +392,6 @@
     gap: 5rem;
   }
 
-  /* .about-text {
-    width: 60vw;
-  } */
-
   .about .small-title {
     font-size: 2rem;
   }
@@ -390,9 +405,9 @@
     gap: 2.4rem;
   }
 
-  .social-media a svg {
-    height: 45px;
-    width: 45px;
+  .social-media a img {
+    height: 10vh;
+    width: 5vw;
   }
 
   .projects {
@@ -402,6 +417,19 @@
 
   .skills {
     padding: 8rem 8rem;
+  }
+
+  .skills .hoverChangeDescription {
+    transition: transform 0.8s ease;
+    display: block;
+    max-width: 50vw;
+    line-height: 2rem;
+    color: var(--text);
+    font-size: 1.3rem;
+  }
+
+  .skills-studying {
+    max-width: 70vw;
   }
 
   .contact {
