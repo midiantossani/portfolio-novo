@@ -4,7 +4,7 @@
 1025px — 1200px: Desktops, large screens
 1201px and more —  Extra large screens, TV */
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 769px) {
   .header {
     padding: 1rem;
   }
@@ -41,8 +41,16 @@
     padding: 8rem 4rem;
   }
 
+  .projects .card-container .projects-container > article {
+    flex-basis: calc(50% - 20px);
+  }
+
   .skills {
     padding: 8rem 4rem;
+  }
+
+  .skills-container .services > article {
+    flex-basis: calc(100% - 20px);
   }
 
   .form-container button {
@@ -52,7 +60,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1025px) {
   body {
     font-size: 1.2rem;
     overflow-x: hidden;
@@ -139,6 +147,10 @@
     text-align: left;
   }
 
+  .projects .card-container .projects-container > article {
+    flex-basis: calc(50% - 20px);
+  }
+
   .skills {
     padding: 4rem 4rem;
   }
@@ -150,6 +162,10 @@
     line-height: 2rem;
     color: var(--text);
     font-size: 1.2rem;
+  }
+
+  .skills-container .services > article {
+    flex-basis: calc(50% - 20px);
   }
 
   .contact {
@@ -288,6 +304,10 @@
     text-align: left;
   }
 
+  .projects .card-container .projects-container > article {
+    flex-basis: calc(33% - 20px);
+  }
+
   .skills {
     padding: 4rem 4rem;
   }
@@ -299,6 +319,10 @@
     line-height: 2rem;
     color: var(--text);
     font-size: 1.3rem;
+  }
+
+  .skills-container .services > article {
+    flex-basis: calc(50% - 20px);
   }
 
   .skills-studying {
@@ -379,7 +403,7 @@
   }
 
   .index-container {
-    padding: 8rem 4rem 8rem 0rem;
+    padding: 8rem 4rem 8rem 6rem;
     text-align: left;
     display: block;
   }
@@ -391,7 +415,7 @@
   }
 
   .index-img {
-    max-height: 80vh;
+    max-height: 90vh;
     width: 60vw;
     margin-top: 2rem;
   }
@@ -440,8 +464,16 @@
     text-align: left;
   }
 
+  .projects .card-container .projects-container > article {
+    flex-basis: calc(33% - 20px);
+  }
+
   .skills {
-    padding: 8rem 10rem;
+    padding: 8rem 6rem;
+  }
+
+  .skills-container .services > article {
+    flex-basis: calc(50% - 20px);
   }
 
   .skills .hoverChangeDescription {
