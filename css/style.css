@@ -113,11 +113,12 @@ h3 {
 .index {
   background-color: var(--old-rose);
   border-bottom: 2px solid var(--soft-brown);
-  min-height: 90vh;
+  min-height: 85vh;
+  padding: 2rem 0 0 0;
 }
 
 .index-container {
-  padding: 8rem 2rem;
+  padding: 4rem 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -150,20 +151,30 @@ h3 {
 
 .index-container a:hover {
   transform: scale(1.2);
-
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .index .index-img {
-  height: 100vw;
+  height: 78vw;
+  width: 80vw;
   background-image: url(../images/ilustration.jpg);
-  background-size: cover;
+  background-size: 170%;
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: bottom right;
   border: 10px solid #dfd9cb;
+  margin: 0 auto;
+}
+
+.index .img-before {
+  display: block;
+}
+
+.index .img-after {
+  display: none;
 }
 
 .about {
+  height: auto;
   background: url(../images/pattern-blue-10.png) center center fixed,
     var(--base-color);
   padding: 8rem 2rem;
@@ -171,6 +182,10 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: left;
+}
+
+.about h2 {
+  margin-bottom: 4rem;
 }
 
 .about-div {
@@ -183,6 +198,13 @@ h3 {
   font-size: 1.9rem;
 }
 
+.about-text {
+  background-color: var(--base-color);
+  padding: 2rem;
+  border: 1px solid var(--soft-brown);
+  border-radius: 3px;
+}
+
 .about p.small-title {
   margin-bottom: 2rem;
   font-size: 1.4rem;
@@ -191,7 +213,7 @@ h3 {
 }
 
 .about img.me {
-  width: 90%;
+  width: 75%;
   border: 2px solid var(--soft-brown);
   border-radius: 100%;
   display: block;
@@ -212,7 +234,7 @@ div.social-media {
 }
 
 .social-media a img.github-2 {
-  width: 10vw;
+  width: 11vw;
   height: 12vh;
 }
 
@@ -252,12 +274,6 @@ div.social-media {
   color: #fff;
 }
 
-.card-container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-/*cada card  */
 .projects .card-container .projects-container > article {
   height: auto;
   padding: 22px;
@@ -322,6 +338,7 @@ div.social-media {
 }
 
 .projects a.repositorio {
+  color: var(--base-color);
   display: block;
   margin: 0 auto;
   text-align: center; /* Centraliza o texto dentro do link */
@@ -395,6 +412,10 @@ div.social-media {
   border-radius: 4px;
 }
 
+.skills-container .services > article img {
+  padding: 0 0 1rem 0;
+}
+
 .skills-container .services > article h4 {
   margin-left: 1rem;
   padding: 0px 0px;
@@ -428,9 +449,10 @@ div.social-media {
   text-align: center;
 }
 
-.contact h4 {
+.contact h2 {
   font-size: 2rem;
   color: var(--base-color);
+  text-align: center;
 }
 
 .contact p {
@@ -506,3 +528,8 @@ div.social-media {
   text-align: center;
   color: var(--soft-brown);
 }
+
+/* .card-container {
+  max-width: 1140px;
+  margin: 0 auto;
+} */
