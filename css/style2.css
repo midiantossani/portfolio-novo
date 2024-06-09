@@ -33,8 +33,8 @@
   }
 
   .about img.me {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 70%;
+    max-height: 70%;
   }
 
   .projects {
@@ -135,17 +135,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 3rem;
+    gap: 4rem;
     margin: 2rem 0;
   }
+
+  /* .about-text {
+    max-width: 40vw;
+  } */
 
   .about .small-title {
     font-size: 1.4rem;
   }
 
   .about img.me {
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 35%;
+    max-height: 35%;
     margin: 0 auto;
   }
 
@@ -313,7 +317,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     margin: 2rem 0;
   }
 
@@ -495,8 +499,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5rem;
+    gap: 4rem;
     margin: 4rem 0;
+    padding: 4rem;
   }
 
   .about .small-title {
@@ -504,12 +509,11 @@
   }
 
   .about-text {
-    max-width: 50vw;
-    padding: 4rem;
+    max-width: 40vw;
   }
 
   .about img.me {
-    max-width: 25%;
+    max-width: 30%;
     max-height: 20%;
     margin: 0 auto;
   }

@@ -189,20 +189,18 @@ h3 {
 }
 
 .about-div {
-  margin: 0 auto;
+  margin: 0 auto 4rem auto;
+  background-color: var(--base-color);
+  padding: 2rem;
+  border: 1px solid var(--soft-brown);
+  border-radius: 3px;
+  
 }
 
 .about-div h3 {
   margin-bottom: 0.5rem;
   color: var(--soft-brown);
   font-size: 1.9rem;
-}
-
-.about-text {
-  background-color: var(--base-color);
-  padding: 2rem;
-  border: 1px solid var(--soft-brown);
-  border-radius: 3px;
 }
 
 .about p.small-title {
@@ -217,7 +215,7 @@ h3 {
   border: 2px solid var(--soft-brown);
   border-radius: 100%;
   display: block;
-  margin: 4rem auto 4rem auto;
+  margin: 2rem auto 2rem auto;
 }
 
 div.social-media {
@@ -260,7 +258,7 @@ div.social-media {
 
 /* container em volta do card */
 .projects .card-container .projects-container {
-  margin: 4rem 0px;
+  margin: 2rem 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
